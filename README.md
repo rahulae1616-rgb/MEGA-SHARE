@@ -17,7 +17,7 @@
 
 <!-- Live Animated Title Banner Image -->
 <a href="https://github.com/rahulae1616-rgb/MEGA-SHARE">
-  <img src="./banner.svg" width="100%" alt="MEGA SHARE Animated Banner">
+  <img src="./banner.svg?v=3" width="100%" alt="MEGA SHARE Animated Banner">
 </a>
 
 <br>
