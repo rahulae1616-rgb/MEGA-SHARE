@@ -32,15 +32,6 @@
       </stop>
     </linearGradient>
 
-    <!-- Subtle Sleek Text Glow Filter -->
-    <filter id="msGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
     <pattern id="msGrid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(0, 198, 255, 0.05)" stroke-width="1"/>
     </pattern>
@@ -69,8 +60,8 @@
     <path d="M-25,-25 A 35 35 0 0 1 25,-25" stroke-width="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.4s" repeatCount="indefinite"/></path>
   </g>
 
-  <!-- Main Title -->
-  <text x="400" y="72" text-anchor="middle" fill="url(#msTextGrad)" font-family="'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="900" letter-spacing="3" filter="url(#msGlow)">
+  <!-- Main Title (Glow Removed for 100% Crisp Text) -->
+  <text x="400" y="72" text-anchor="middle" fill="url(#msTextGrad)" font-family="'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="900" letter-spacing="3">
     🚀 MEGA SHARE 🚀
   </text>
 
